@@ -1,0 +1,186 @@
+// If transparent
+.nav-item {
+    position: relative;
+}
+.navbar-light .social a {
+    color: #000;
+}
+.navbar-dark .social a {
+    color: #fff;
+}
+nav.transparent {
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+nav.transparent-dark {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+nav.transparent-light {
+    background: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+nav.scrolled.fixed-top {
+    background-color: #ffffff;
+    box-shadow: 0 0px 15px -2px rgba(159, 159, 159, 0.4);
+}
+
+.navbar-brand img {
+    max-width: $size-max-logo;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+nav.navbar {
+    padding: 0px 10px;
+
+    .social a {
+        padding: 22px 10px !important;
+        display: block;
+    }
+
+    .nav-full-height {
+
+        .nav-link {
+            padding: 22px !important;
+        }
+    }
+
+    .dropdown {
+
+        .dropdown-menu {
+            margin: -1px;
+        }
+    }
+
+    ul.nav {
+
+        .nav-item .button {
+            background-color: #fff;
+            color: #000;
+            padding: 6px 20px;
+            border-radius: 3px;
+            margin: 15px 10px;
+        }
+    }
+}
+
+.header-style7 {
+    background-color: #fff;
+    padding: 0px !important;
+
+    .navbar-brand {
+        margin-left: 15px;
+    }
+
+    .navbar-nav {
+
+        .social a {
+            color: $light;
+
+            &:hover {
+                opacity: .9;
+                color: $light;
+            }
+        }
+
+        .facebook {
+            background: $color-facebook;
+        }
+
+        .twitter {
+            background: $color-twitter;
+        }
+
+        .instagram {
+            background: $color-instagram;
+        }
+
+        .google {
+            background: $color-google;
+        }
+
+        .github {
+            background: $color-github;
+        }
+
+        .linkedin {
+            background: $color-linkedin;
+        }
+
+        .messenger {
+            background: $color-messenger;
+        }
+
+        .rss {
+            background: $color-rss;
+        }
+    }
+
+
+}
+
+.have-megamenu {
+    // position: static;
+
+    .megamenu {
+        width: 800px;
+        overflow: hidden;
+        left: -200px;
+        padding: 0;
+        box-shadow: 0 5px 10px -2px rgba(159, 159, 159, 0.4);
+        // right: 0;
+        // padding: 15px;
+        // margin: 0 auto !important;
+        .row {
+            margin: 0px;
+        }
+        .menucol {
+            padding: 0px;
+        }
+        .menu-content {
+            text-align: center;
+            padding: 20px;
+            transition: $animate-all3s;
+
+            &:hover {
+                background: $color-primary;
+            }
+
+            img {
+                max-width: 120px;
+                margin-bottom: 15px;
+            }
+            .title {
+                font-size: 20px;
+    font-weight: 600;
+            }
+        }
+    }
+}
+
+
+nav .navbar-brand .scroll {
+    display: none;
+}
+nav.scrolled .navbar-brand .top {
+    display: none;
+}
+nav.scrolled .navbar-brand .scroll {
+    display: block;
+}

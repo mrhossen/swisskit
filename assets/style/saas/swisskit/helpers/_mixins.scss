@@ -1,0 +1,140 @@
+@mixin downbtn($class-name: 'skbtn-download', $background: #fff, $hover-bg: $color-primary) {
+    .#{$class-name} {
+        border: 2px solid $background !important;
+        border-radius: 5px;
+        padding: 10px 25px;
+        color: $background;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 10px;
+        display: flex !important;
+        float: left;
+        transition: all 0.5s ease;
+
+        &::before {
+            content: "";
+            background: $background;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 1;
+            transition: all 0.5s ease;
+            transform: translate(-50%, -50%);
+        }
+        &:hover {
+            border: 2px solid $hover-bg !important;
+        }
+        &:hover i,
+        &:hover p {
+            color: $hover-bg;
+        }
+
+        & i {
+            font-size: 28px;
+            line-height: 28px;
+            margin-right: 10px;
+            z-index: 2;
+        }
+
+        & p {
+            text-align: left;
+            margin-bottom: 0px;
+            line-height: 17px;
+            font-weight: bold;
+            font-size: 18px;
+            z-index: 2;
+        }
+
+        & small {
+            white-space: nowrap;
+            display: block;
+            font-size: 14px;
+        }
+    }
+}
+
+@include downbtn;
+@include downbtn('skbtn-download-dark', $dark, $color-primary);
+@include downbtn('skbtn-download-primary', $color-primary, $color-secondary);
+@include downbtn('skbtn-download-secondary', $color-secondary, $color-primary);
+
+
+@mixin gradientbtn($class-name: 'skbtn-gradient', $background1: $color-primary, $background2: $color-secondary) {
+    .#{$class-name} {
+        background-color: $color-primary;
+        background-image: linear-gradient(45deg, $background1 0%, $background2 100%);
+        position: relative;
+        display: block;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 1s all ease;
+        text-align: center;
+        color: white;
+
+        &:hover {
+            background-image: linear-gradient(-45deg, $background1 0%, $background2 100%);
+            color: white;
+        }
+    }
+   
+}
+
+@include gradientbtn;
+@include gradientbtn('skbtn-gradient1', $color-custom1, $color-custom2);
+@include gradientbtn('skbtn-gradient2', $color-custom3, $color-custom4);
+@include gradientbtn('skbtn-gradient3', $color-custom1, $color-custom3);
+@include gradientbtn('skbtn-gradient4', $color-custom2, $color-custom4);
+@include gradientbtn('skbtn-gradient5', $color-primary, $color-custom3);
+@include gradientbtn('skbtn-gradient6', $color-primary, $color-custom4);
+@include gradientbtn('skbtn-gradient7', $color-secondary, $color-custom1);
+
+
+
+
+
+
+
+// header style 
+
+@mixin header-color($class-name: 'hs-dark', $color: $dark, $border-color: $dark, $background: $dark, $spancolor: $light ) {
+    .#{$class-name} {
+        color: $color;
+
+        &::before {
+            border-top: 1px solid $border-color;
+            border-bottom: 1px solid $border-color;
+        }
+        &::after {
+            border-top: 1px solid $border-color;
+            border-bottom: 1px solid $border-color;
+        }
+
+        span {
+            background-color: $background;
+            color: $spancolor;
+        }
+    }
+
+}
+
+@include header-color;
+@include header-color('hs-light', $light, $light, $light, $dark);
+@include header-color('hs-primary', $color-primary, $color-primary, $color-primary, $light);
+@include header-color('hs-secondary', $color-secondary, $color-secondary, $color-secondary, $light); 
+
+
+
+// border color
+
+@mixin border-color($class-name: 'border-color', $bordercolor: $dark ) {
+    .#{$class-name} {
+        border: 1px solid $bordercolor !important;
+    }
+
+}
+
+@include border-color;
+@include border-color('border-color-primary', $color-primary);
+@include border-color('border-color-secondary', $color-secondary);
+

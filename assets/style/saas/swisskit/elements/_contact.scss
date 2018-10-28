@@ -1,0 +1,96 @@
+.contactform {
+
+    input {
+        height: 45px;
+        margin-top: 15px;
+
+        &:focus ~ label {
+            top: -18px;
+            color: $color-primary;
+            font-size: 13px;
+        }
+    }
+    textarea {
+        margin-top: 15px;
+
+        &:focus ~ label {
+            top: -18px;
+            color: $color-primary;
+            font-size: 13px;
+        }
+    }
+    label {
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        padding: 10px 0;
+        color: #000;
+        pointer-events: none;
+        transition: .5s
+    }
+    .form-group {
+        overflow: unset !important;
+    }
+    input:focus, textarea:focus {
+        border-color: #ced4da;
+        box-shadow: unset;
+    }
+    .focused label {
+        top: -18px;
+        color: $color-primary;
+        font-size: 13px;
+    }
+}
+
+
+.transparent-light {
+
+    input, textarea {
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff !important;
+
+        &:focus {
+            background: transparent;
+        }
+
+        &:focus ~ label {
+            color: #fff;
+        }
+    }
+    label {
+        color: #fff;
+    }
+    input:focus, textarea:focus {
+        border-color: #ffffff;
+    }
+    .focused label {
+        color: #fff;
+    }
+}
+
+.transparent-dark {
+
+    input, textarea {
+        background: transparent;
+        border: 2px solid #000000;
+        color: #000000 !important;
+
+        &:focus {
+            background: transparent;
+        }
+
+        &:focus ~ label {
+            color: #000000;
+        }
+    }
+    label {
+        color: #000000;
+    }
+    input:focus, textarea:focus {
+        border-color: #000000;
+    }
+    .focused label {
+        color: #000000;
+    }
+}

@@ -1,0 +1,381 @@
+/*----------------------
+    FONT WEIGHT
+-----------------------*/
+.font300 {
+    font-weight: 300;
+}
+
+.font400 {
+    font-weight: 400;
+}
+
+.font500 {
+    font-weight: 500;
+}
+
+.font600 {
+    font-weight: 600;
+}
+
+.font700 {
+    font-weight: 700;
+}
+
+.font800 {
+    font-weight: 800;
+}
+
+/*----------------------
+    FONT SIZE
+-----------------------*/
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font26 {
+    font-size: 26px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font34 {
+    font-size: 34px;
+}
+
+.font36 {
+    font-size: 36px;
+}
+
+.font38 {
+    font-size: 38px;
+}
+
+.font40 {
+    font-size: 40px;
+}
+
+.font42 {
+    font-size: 42px;
+}
+
+.font44 {
+    font-size: 44px;
+}
+
+.font46 {
+    font-size: 46px;
+}
+
+.font48 {
+    font-size: 48px;
+}
+
+.font50 {
+    font-size: 50px;
+}
+
+.font55 {
+    font-size: 55px;
+}
+
+.font60 {
+    font-size: 60px;
+}
+
+.font65 {
+    font-size: 60px;
+}
+
+.font70 {
+    font-size: 60px;
+}
+
+.font80 {
+    font-size: 80px;
+}
+
+.font100 {
+    font-size: 100px;
+}
+
+.font120 {
+    font-size: 120px
+}
+
+.font140 {
+    font-size: 140px
+}
+
+/*----------------------------------
+    PAD LAYOUT
+-----------------------------------*/
+
+@media (max-width: #{$pad}) {
+
+    .m-font12 {
+        font-size: 12px;
+    }
+
+    .m-font14 {
+        font-size: 14px;
+    }
+
+    .m-font16 {
+        font-size: 16px;
+    }
+
+    .m-font18 {
+        font-size: 18px;
+    }
+
+    .m-font20 {
+        font-size: 20px;
+    }
+
+    .m-font22 {
+        font-size: 22px;
+    }
+
+    .m-font24 {
+        font-size: 24px;
+    }
+
+    .m-font26 {
+        font-size: 26px;
+    }
+
+    .m-font28 {
+        font-size: 28px;
+    }
+
+    .m-font30 {
+        font-size: 30px;
+    }
+
+    .m-font32 {
+        font-size: 32px;
+    }
+
+    .m-font34 {
+        font-size: 34px;
+    }
+
+    .m-font36 {
+        font-size: 36px;
+    }
+
+    .m-font38 {
+        font-size: 38px;
+    }
+
+    .m-font40 {
+        font-size: 40px;
+    }
+
+    .m-font42 {
+        font-size: 42px;
+    }
+
+    .m-font44 {
+        font-size: 44px;
+    }
+
+    .m-font46 {
+        font-size: 46px;
+    }
+
+    .m-font48 {
+        font-size: 48px;
+    }
+
+    .m-font50 {
+        font-size: 50px;
+    }
+
+    .m-font55 {
+        font-size: 55px;
+    }
+
+    .m-font60 {
+        font-size: 60px;
+    }
+
+    .m-font65 {
+        font-size: 60px;
+    }
+
+    .m-font70 {
+        font-size: 60px;
+    }
+
+    .m-font80 {
+        font-size: 80px;
+    }
+
+    .m-font100 {
+        font-size: 100px;
+    }
+
+    .m-font120 {
+        font-size: 120px
+    }
+
+    .m-font140 {
+        font-size: 140px
+    }
+
+}
+
+/*----------------------------------
+    MOBILE LAYOUT
+-----------------------------------*/
+
+@media (max-width: #{$mobile}) {
+
+    .s-font12 {
+        font-size: 12px;
+    }
+
+    .s-font14 {
+        font-size: 14px;
+    }
+
+    .s-font16 {
+        font-size: 16px;
+    }
+
+    .s-font18 {
+        font-size: 18px;
+    }
+
+    .s-font20 {
+        font-size: 20px;
+    }
+
+    .s-font22 {
+        font-size: 22px;
+    }
+
+    .s-font24 {
+        font-size: 24px;
+    }
+
+    .s-font26 {
+        font-size: 26px;
+    }
+
+    .s-font28 {
+        font-size: 28px;
+    }
+
+    .s-font30 {
+        font-size: 30px;
+    }
+
+    .s-font32 {
+        font-size: 32px;
+    }
+
+    .s-font34 {
+        font-size: 34px;
+    }
+
+    .s-font36 {
+        font-size: 36px;
+    }
+
+    .s-font38 {
+        font-size: 38px;
+    }
+
+    .s-font40 {
+        font-size: 40px;
+    }
+
+    .s-font42 {
+        font-size: 42px;
+    }
+
+    .s-font44 {
+        font-size: 44px;
+    }
+
+    .s-font46 {
+        font-size: 46px;
+    }
+
+    .s-font48 {
+        font-size: 48px;
+    }
+
+    .s-font50 {
+        font-size: 50px;
+    }
+
+    .s-font55 {
+        font-size: 55px;
+    }
+
+    .s-font60 {
+        font-size: 60px;
+    }
+
+    .s-font65 {
+        font-size: 60px;
+    }
+
+    .s-font70 {
+        font-size: 60px;
+    }
+
+    .s-font80 {
+        font-size: 80px;
+    }
+
+    .s-font100 {
+        font-size: 100px;
+    }
+
+    .s-font120 {
+        font-size: 120px
+    }
+
+    .s-font140 {
+        font-size: 140px
+    }
+}

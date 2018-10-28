@@ -1,0 +1,102 @@
+/*-----------------------
+    Alignment
+------------------------*/
+.left,
+.right,
+.center {
+    position: relative;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    width: 100%;
+    display: block;
+    text-align: center
+}
+
+.gridcenter {
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+.v-center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.h-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.vh-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+
+/*----------------------------------
+    MEDIUM LAYOUT
+-----------------------------------*/
+
+@media (max-width: #{$pad}) {
+    .m-center {
+        text-align: center;
+    }
+
+    .m-left {
+        text-align: left;
+    }
+
+    .m-right {
+        text-align: right;
+    }
+}
+
+/*----------------------------------
+    SMALL LAYOUT
+-----------------------------------*/
+
+@media (max-width: #{$mobile}) {
+    .s-center {
+        text-align: center;
+    }
+
+    .s-left {
+        text-align: left;
+    }
+
+    .s-right {
+        text-align: right;
+    }
+
+}
+

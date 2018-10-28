@@ -1,0 +1,35 @@
+/*** Parameters ***/
+
+// Version  
+$version: "1.1";
+
+// Font Family
+$font-primary: 'Open Sans', sans-serif !default;
+$font-secondary: 'Roboto', sans-serif !default;
+$font-header: 'Open Sans', sans-serif !default;
+
+// Borders
+$border-light: solid 1px rgba(0, 0, 0, .05) !default;
+$border-dark: solid 1px rgba(0, 0, 0, .08) !default;
+
+// Font Size
+$font-body: 16px !default;
+$font-menu: 16px !default;
+
+// Logo Size
+$size-max-logo: 270px !default;
+
+// Media queries
+$desktop-min: 1025px;
+$laptop: 1200px;
+$pad: 992px;
+$mobile: 767px;
+
+
+// Animation
+$animate-all5s: all .5s ease;
+$animate-all3s: all .3s ease-in-out;
+
+$anime3s: .4s;
+$anime4s: .4s;
+$anime5s: .5s;

@@ -1,0 +1,150 @@
+// Heading & Divider style
+.sectitle span {
+    font-weight: bold;
+}
+.heading-style1 {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        right: 100%;
+        left: 0;
+        top: 0;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        right: 100%;
+        left: 0;
+        bottom: 0;
+    }
+}
+
+.heading-style2 {
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        right: 100%;
+        left: 0;
+        top: 0;
+        height: 7px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        right: 100%;
+        left: 0;
+        bottom: 0;
+        height: 7px;
+    }
+}
+
+.heading-style3 {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        right: 100%;
+        left: -60px;
+        top: calc(50% - 1.5px);
+        width: 55px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        left: 100%;
+        right: -60px;
+        top: calc(50% - 1.5px);
+        width: 55px;
+    }
+}
+
+.heading-style4 {
+    font-weight: normal;
+    position: relative;
+    strong {
+    font-weight: bold;
+    }
+}
+
+.heading-style5 {
+    position: relative;
+    span {
+    padding: 5px 10px;
+    }
+}
+.heading-style6 {
+    font-weight: bold;
+    position: relative;
+    margin-top: 80px;
+    label {
+        position: absolute;
+    font-size: 250%;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.1;
+    top: -80px;
+    @include medium {
+        top: -65px;
+    }
+    }
+}
+
+
+
+
+
+
+
+
+hr.empty30 {
+    margin: 30px 0px;
+    border-color: transparent;
+}
+hr.empty50 {
+    margin: 50px 0px;
+    border-color: transparent;
+}
+hr.empty100 {
+    margin: 100px 0px;
+    border-color: transparent;
+}
+
+hr.margin50 {
+    margin: 50px 0px;
+}
+hr.gradient {
+    margin: 50px 0px;
+    height: 5px;
+    background: linear-gradient(to right, $color-primary 0%, $color-secondary 100%);
+}
+hr.dashed1px {
+    margin: 50px 0px;
+    border-top: 1px dashed #dadada;
+    height: 1px;
+}
+hr.dashed2px {
+    margin: 50px 0px;
+    border-top: 2px dashed #dadada;
+    height: 1px;
+}
+hr.dashed-primary {
+    margin: 50px 0px;
+    border-top: 2px dashed $color-primary;
+    height: 1px;
+}

@@ -1,0 +1,42 @@
+/*-----------------------
+    BORDER
+------------------------*/
+.border {
+    border: $border-light;
+}
+
+.border-left {
+    border-left: $border-light;
+}
+
+.border-right {
+    border-right: $border-light;
+}
+
+.border-bottom {
+    border-bottom: $border-light;
+}
+
+.border-top {
+    border-top: $border-light;
+}
+
+.border-radious5 {
+    border-radius: 5px;
+}
+
+.border-radious10 {
+    border-radius: 10px;
+}
+
+.border-radious25 {
+    border-radius: 25px;
+}
+
+.border-radious100 {
+    border-radius: 100px;
+}
+
+.border-radious100p {
+    border-radius: 100%;
+}

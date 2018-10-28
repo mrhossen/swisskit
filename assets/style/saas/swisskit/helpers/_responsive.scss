@@ -1,0 +1,40 @@
+/*** Responsive ***/
+
+@mixin desktop {
+    @media (min-width: #{$desktop-min}) {
+        @content;
+    }
+}
+
+
+@mixin large {
+    @media (max-width: #{$laptop}) {
+        @content;
+    }
+}
+
+@mixin large-only {
+    @media (min-width: #{$desktop-min}) and (max-width: #{$laptop}) {
+        @content;
+    }
+}
+
+
+@mixin medium {
+    @media (max-width: #{$pad}) {
+        @content;
+    }
+}
+
+@mixin medium-only {
+    @media (min-width: #{$mobile+1px}) and (max-width: #{$desktop-min}) {
+        @content;
+    }
+}
+
+
+@mixin small {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}

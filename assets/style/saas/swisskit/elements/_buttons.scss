@@ -1,0 +1,160 @@
+// Buttons Style
+.download-buttons {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 40px;
+
+    a {
+        margin-right: 25px;
+    }
+
+    .title {
+        font-weight: 600;
+    }
+}
+
+.skbtn-large {
+    font-size: 18px;
+    padding: 24px 60px;
+    max-width: 100%;
+
+    @include small {
+        padding: 15px 40px;
+    }
+}
+
+.skbtn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    line-height: 1.5;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        transition: $animate-all5s;
+    }
+
+    span {
+        position: relative;
+        z-index: 2;
+        margin: 0 10px;
+    }
+}
+
+.skbtn2x {
+    padding: 15px 40px;
+}
+
+.skbtn3x {
+    padding: 20px 60px;
+}
+
+.skbtn-color {
+    background: $dark;
+    color: set-text-color($dark);
+
+    &:hover {
+        background: $light;
+        color: set-text-color($light);
+    }
+
+    &-white {
+        background: $light;
+        color: set-text-color($light);
+
+        &:hover {
+            background: $dark;
+            color: set-text-color($dark);
+        }
+    }
+
+    &-primary {
+        background: $color-primary;
+        color: set-text-color($color-primary);
+
+        &:hover {
+            background: $color-secondary;
+            color: set-text-color($color-secondary);
+        }
+    }
+
+    &-secondary {
+        background: $color-secondary;
+        color: set-text-color($color-secondary);
+
+        &:hover {
+            background: $color-primary;
+            color: set-text-color($color-primary);
+        }
+    }
+}
+
+.skbtn-outline {
+    color: $dark;
+    border: 2px solid $dark !important;
+
+    &::before {
+        background: $dark;
+    }
+
+    &:hover {
+        background: $dark;
+        color: set-text-color($dark);
+    }
+
+    &-white {
+        color: $light;
+        border: 2px solid $light !important;
+
+        &::before {
+            background: $light;
+        }
+
+        &:hover {
+            background: $light;
+            color: set-text-color($light);
+        }
+
+    }
+    &-primary {
+        color: $color-primary;
+        border: 2px solid $color-primary !important;
+
+        &::before {
+            background: $color-primary;
+        }
+
+        &:hover {
+            background: $color-primary;
+            color: set-text-color($color-primary);
+        }
+
+    }
+    &-secondary {
+        color: $color-secondary;
+        border: 2px solid $color-secondary !important;
+
+        &::before {
+            background: $color-secondary;
+        }
+
+        &:hover {
+            background: $color-secondary;
+            color: set-text-color($color-secondary);
+        }
+
+    }
+}
+
