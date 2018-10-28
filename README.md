@@ -14,14 +14,57 @@ Swisskit will help to build any kind of frontend responsive project and trying t
 
 <a href="https://github.com/michalsnik/aos">**AOS:** Animate On Scroll Library.</a>
 
-## How to use
+------------------------------
+
+## Installation
+
+### Swisskit
+
+Add styles in <head>:
+
+```
+<link rel="stylesheet" href="assets/style/min/swisskit.min.css">
+```
+
+Add script right before closing </body> tag:
+
+```
+ <script src="assets/js/lib/swisskit.min.js"></script>
+```
+
+### 3rd party library CSS
+
+Add styles in <head> (add only what you need.)
+
+```
+<link rel="stylesheet" href="assets/style/lib/bootstrap.min.css">
+<link rel="stylesheet" href="assets/style/lib/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/style/lib/aos.css">
+<link rel="stylesheet" href="assets/icofont/icofont.min.css">
+
+```
+### 3rd party library JS
+
+Add script right before closing </body> tag: (add only what you need.)
+
+```
+<script src="assets/js/lib/jquery-3.3.1.min.js"></script>
+<script src="assets/js/lib/popper.min.js"></script>
+<script src="assets/js/lib/bootstrap.min.js"></script>
+<script src="assets/js/lib/owl.carousel.min.js"></script>
+<script src="assets/js/lib/lity.min.js"></script>
+<script src="assets/js/lib/aos.js"></script>
+```
+
+------------------------------
 
 ### How to modify SASS
 
 *SASS Compile path should be:*
-
+```
 **CSS Path:** /assets/style/css
 **Min Path**  /assets/style/min
+```
 
 *Easy way to do with VSCODE*
 
@@ -44,10 +87,13 @@ Swisskit will help to build any kind of frontend responsive project and trying t
 ```
 Now it's ready to go. 
 
+------------------------------
+
 ## SASS folder stracture
 
-**Main SASS folder:** assets/style/saas
 ```
+**SASS folder path:** assets/style/saas
+
 - swisskit
 
     -- elements (Contains some extra elements style.)
@@ -78,7 +124,7 @@ Now it's ready to go.
 - theme (Your own theme SASS files)
 
     -- elements (Custom elements for your theme.)
-    
+
     -- modules (Custom modules for your theme.)
 
 - _swisskit-config.scss (Overwrite SASS variables)
@@ -88,9 +134,13 @@ Now it's ready to go.
 - theme.scss (Call all of sub SASS file for your theme)
 ```
 
+------------------------------
+
 ## Documentation
 
 Coming Soon...
+
+------------------------------
 
 ## License
 
