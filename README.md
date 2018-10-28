@@ -14,8 +14,63 @@ Swisskit will help to build any kind of frontend responsive project and trying t
 
 <a href="https://github.com/michalsnik/aos">**AOS:** Animate On Scroll Library.</a>
 
+## How to use
+
+### How to modify SASS
+
+*SASS Compile path should be:*
+
+**CSS Path:** /assets/style/css
+**Min Path**  /assets/style/min
+
+*Easy way to do with VSCODE*
+
+1. Install <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass">Live Sass Compiler</a> VSCODE extension. 
+2. Use bellow configuration on VSCODE settings.json
+
+```
+"liveSassCompile.settings.formats":[
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/style/css"
+        },
+        {
+            "extensionName": ".min.css",
+            "format": "compressed",
+            "savePath": "/assets/style/min"
+        }
+    ]
+```
+Now it's ready to go. 
+
+## SASS folder stracture
+
+**Main SASS folder:** assets/style/saas
+
+- swisskit
+    -- elements (Contains some extra elements style.)
+        --- _buttons.scss
+        --- _contact.scss
+        --- _heading.scss
+
+    -- helpers (Contains functions, mixing, and variables.)
+        --- _colors.scss
+        --- _functions.scss
+        --- _mixins.scss
+        --- _parameters.scss
+        --- __responsive.scss
+
+    -- modules (Contains all the modules we will use in our code.)
+
+- theme ()
+
+- _swisskit-config.scss (Overwrite SASS variables)
+- swisskit.scss (Call all of sub SASS files)
+
 ## Documentation
-Coming soon
+
+Coming Soon...
 
 ## License
 
