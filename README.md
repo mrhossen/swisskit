@@ -7,8 +7,11 @@ Swisskit will help to build any kind of frontend responsive project and trying t
 ## 3rd party library include on Swisskit
 
 <a href="https://getbootstrap.com/">**Bootstrap:** Front-end framework.</a>
+
 <a href="https://github.com/OwlCarousel2/OwlCarousel2">**Owl Carousel:** Responsive carousel slide.</a>
+
 <a href="https://github.com/jsor/lity">**Lity:** Responsive lightbox.</a>
+
 <a href="https://github.com/michalsnik/aos">**AOS:** Animate On Scroll Library.</a>
 
 ## Documentation
