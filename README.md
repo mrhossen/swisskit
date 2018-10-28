@@ -75,8 +75,8 @@ Add script right before closing </body> tag: (add only what you need.)
 
 *SASS Compile path should be:*
 ```
-**CSS Path:** /assets/style/css
-**Min Path**  /assets/style/min
+CSS Path: /assets/style/css
+Min Path: /assets/style/min
 ```
 
 *Easy way to do with VSCODE*
@@ -105,7 +105,7 @@ Now it's ready to go.
 ## SASS folder stracture
 
 ```
-**SASS folder path:** assets/style/saas
+SASS folder path: assets/style/saas
 
 - swisskit
 
