@@ -49,6 +49,7 @@ Now it's ready to go.
 **Main SASS folder:** assets/style/saas
 ```
 - swisskit
+
     -- elements (Contains some extra elements style.)
         --- _buttons.scss
         --- _contact.scss
@@ -60,7 +61,7 @@ Now it's ready to go.
         --- _functions.scss
         --- _mixins.scss
         --- _parameters.scss
-        --- __responsive.scss
+        --- _responsive.scss
 
     -- modules (Contains all the modules we will use in our code.)
         --- _base.scss
@@ -74,10 +75,17 @@ Now it's ready to go.
         --- _align.scss
         --- _width.scss
 
-- theme ()
+- theme (Your own theme SASS files)
+
+    -- elements (Custom elements for your theme.)
+    
+    -- modules (Custom modules for your theme.)
 
 - _swisskit-config.scss (Overwrite SASS variables)
+
 - swisskit.scss (Call all of sub SASS files)
+
+- theme.scss (Call all of sub SASS file for your theme)
 ```
 
 ## Documentation
