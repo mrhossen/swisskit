@@ -20,26 +20,32 @@ Swisskit will help to build any kind of frontend responsive project and trying t
 
 ### Swisskit
 
-Add styles in <head>:
+Add styles in `<head>`:
 
-```
+```html
 <link rel="stylesheet" href="assets/style/min/swisskit.min.css">
 ```
 
-Add script right before closing </body> tag:
+Add script right before closing `</body>` tag:
 
-```
+```html
  <script src="assets/js/lib/swisskit.min.js"></script>
 ```
 
 ### 3rd party library CSS
 
-Add styles in <head> (add only what you need.)
+Add styles in `<head>` (add only what you need.)
 
-```
+```html
+<!-- Bootstrap CSS -->
 <link rel="stylesheet" href="assets/style/lib/bootstrap.min.css">
+<!-- Owl Carousel CSS -->
 <link rel="stylesheet" href="assets/style/lib/owl.carousel.min.css">
+<!-- Animate On Scroll CSS -->
 <link rel="stylesheet" href="assets/style/lib/aos.css">
+<!-- Responsive lightbox CSS -->
+<link rel="stylesheet" href="assets/style/lib/lity.min.css">
+<!-- Ico Font CSS -->
 <link rel="stylesheet" href="assets/icofont/icofont.min.css">
 
 ```
@@ -47,13 +53,20 @@ Add styles in <head> (add only what you need.)
 
 Add script right before closing </body> tag: (add only what you need.)
 
-```
+```html
+<!-- jQuery -->
 <script src="assets/js/lib/jquery-3.3.1.min.js"></script>
+<!-- Popper JS -->
 <script src="assets/js/lib/popper.min.js"></script>
+<!-- Bootsttrap JS -->
 <script src="assets/js/lib/bootstrap.min.js"></script>
+<!-- Owl Carousel JS -->
 <script src="assets/js/lib/owl.carousel.min.js"></script>
-<script src="assets/js/lib/lity.min.js"></script>
+<!-- Animate On Scroll JS -->
 <script src="assets/js/lib/aos.js"></script>
+<!-- Responsive lightbox JS -->
+<script src="assets/js/lib/lity.min.js"></script>
+
 ```
 
 ------------------------------
@@ -71,7 +84,7 @@ Add script right before closing </body> tag: (add only what you need.)
 1. Install <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass">Live Sass Compiler</a> VSCODE extension. 
 2. Use bellow configuration on VSCODE settings.json
 
-```
+```json
 "liveSassCompile.settings.formats":[
         {
             "format": "expanded",
