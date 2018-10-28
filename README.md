@@ -47,7 +47,7 @@ Now it's ready to go.
 ## SASS folder stracture
 
 **Main SASS folder:** assets/style/saas
-
+```
 - swisskit
     -- elements (Contains some extra elements style.)
         --- _buttons.scss
@@ -67,6 +67,7 @@ Now it's ready to go.
 
 - _swisskit-config.scss (Overwrite SASS variables)
 - swisskit.scss (Call all of sub SASS files)
+```
 
 ## Documentation
 
