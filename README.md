@@ -53,6 +53,7 @@ Now it's ready to go.
         --- _buttons.scss
         --- _contact.scss
         --- _heading.scss
+        --- _nav.scss
 
     -- helpers (Contains functions, mixing, and variables.)
         --- _colors.scss
@@ -62,6 +63,16 @@ Now it's ready to go.
         --- __responsive.scss
 
     -- modules (Contains all the modules we will use in our code.)
+        --- _base.scss
+        --- _border.scss
+        --- _hover.scss
+        --- _keyframes.scss
+        --- _margin.scss
+        --- _padding.scss
+        --- _preloader.scss
+        --- _fontsize.scss
+        --- _align.scss
+        --- _width.scss
 
 - theme ()
 
