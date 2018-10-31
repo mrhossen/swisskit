@@ -6,7 +6,7 @@ Swisskit will help to build any kind of frontend responsive project and trying t
 
 ## 3rd party library include on Swisskit
 
-<a href="https://getbootstrap.com/">**Bootstrap:** Front-end framework.</a>
+[**Bootstrap:** Front-end framework.](https://getbootstrap.com/)
 
 <a href="https://github.com/OwlCarousel2/OwlCarousel2">**Owl Carousel:** Responsive carousel slide.</a>
 
@@ -151,7 +151,7 @@ SASS folder path: assets/style/saas
 
 ## Documentation
 
-Coming Soon...
+[Full Documentation ](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md)
 
 ------------------------------
 

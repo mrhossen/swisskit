@@ -4,6 +4,14 @@
 
 [Installation](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#installation)
 
+[How to modify SASS](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#how-to-modify-sass)
+
+[SASS folder stracture](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#sass-folder-stracture)
+
+[How to use:](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#how-to-use)
+
+[Preloader style](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#preloader-style)
+
 
 ## Installation
 
@@ -70,7 +78,7 @@ Min Path: /assets/style/min
 
 *Easy way to do with VSCODE*
 
-1. Install <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass">Live Sass Compiler</a> VSCODE extension. 
+1. Install [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) VSCODE extension. 
 2. Use bellow configuration on VSCODE settings.json
 
 ```json
