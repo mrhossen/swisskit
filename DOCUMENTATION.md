@@ -295,6 +295,7 @@ Swisskit have 7 prelaoder style
 * For border radious use `border-radious5`, `border-radious10`, `border-radious25`, `border-radious50`, `border-radious100` & for 100% radious use `border-radious100p`
 * For full border use `border` & for specific align border use `border-left`, `border-right`, `border-top`, `border-bottom`
 
+------------------------------
 
 ## Alignment CSS Class
 
@@ -317,6 +318,8 @@ Example:
 m-center, s-center
 ```
 
+------------------------------
+
 ## Font related class
 
 * For font weight use `font300`, `font400`, `font500`, `font600`, `font700`, `font800`, `font900` 
@@ -324,6 +327,16 @@ m-center, s-center
 * For font size use Any ODD number form 12 to 50. Like: `font12`, `font14`, `font26`, `font42` etc. 
 
 * For others large font available values are: `font55`, `font60`, `font65`, `font70`, `font80`, `font100`, `font120`, `font140` 
+
+** Responsive **
+
+For Tablet Screen just use `m-` & for mobile `s-` before text alignment css class.
+Example:
+```
+m-font55, s-font26
+```
+
+------------------------------
 
 ## Hover class
 
@@ -340,3 +353,54 @@ m-center, s-center
 * On hover zoom effect `hover-zoom`
 
 * For link hover effect `link-hover`
+
+------------------------------
+
+## Margin & Padding class
+
+* For 0 margin & padding use `no-margin` & `no-padding`
+
+* For others spacing use short form of the name. like: 
+```
+margin-top use `mt`
+margin-bottom use `mb`
+margin-left use `ml`
+margin-right use `mr`
+padding-top use `pt`
+padding-bottom use `pb`
+```
+& for top & bottom size use 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ,120, 140, 160, 180, 200 
+
+& for left & right size use 10, 20, 30, 40, 50
+
+**Example**
+
+```
+mt50, mb70, pt20, pb100, ml30, mr40
+```
+
+**Margin negative value**
+
+```
+mt-25, mt-50, mt-75, mt-100, mt-125, mt-150, mt-175, mt-200
+
+mb-25, mb-50, mb-75, mb-100, mb-125, mb-150, mb-175, mb-200
+```
+
+** Responsive **
+
+For Tablet Screen just use `m-` & for mobile `s-` before text alignment css class.
+Example:
+```
+s-mb-50, m-mt-100
+```
+
+------------------------------
+
+## Max & Min width Class
+
+```
+max-w100, max-w150, max-w200, max-w350, max-w400, max-w450, max-w500, max-w550, max-w600
+
+min-w100, min-w150, min-w200, min-w350, min-w400, min-w450, min-w500, min-w550, min-w600
+```
