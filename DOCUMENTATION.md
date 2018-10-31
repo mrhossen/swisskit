@@ -1,4 +1,6 @@
-## Documentation of Swisskit
+# Documentation of Swisskit
+
+------------------------------
 
 ## Table of contents
 
@@ -12,6 +14,7 @@
 
 [Preloader style](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#preloader-style)
 
+------------------------------
 
 ## Installation
 

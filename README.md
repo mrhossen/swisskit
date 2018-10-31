@@ -1,4 +1,6 @@
-## What is Swisskit?
+# What is Swisskit?
+
+------------------------------
 
 Swisskit is a frontend web pack based on SASS & some jQuery library. 
 
@@ -153,7 +155,7 @@ SASS folder path: assets/style/saas
 
 [Full Documentation ](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md)
 
-### Table of contents
+** Table of contents **
 
 [Installation](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#installation)
 
