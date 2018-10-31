@@ -8,11 +8,11 @@ Swisskit will help to build any kind of frontend responsive project and trying t
 
 [**Bootstrap:** Front-end framework.](https://getbootstrap.com/)
 
-<a href="https://github.com/OwlCarousel2/OwlCarousel2">**Owl Carousel:** Responsive carousel slide.</a>
+[**Owl Carousel:** Responsive carousel slide.](https://github.com/OwlCarousel2/OwlCarousel2)
 
-<a href="https://github.com/jsor/lity">**Lity:** Responsive lightbox.</a>
+[**Lity:** Responsive lightbox.](https://github.com/jsor/lity)
 
-<a href="https://github.com/michalsnik/aos">**AOS:** Animate On Scroll Library.</a>
+[**AOS:** Animate On Scroll Library.](https://github.com/michalsnik/aos)
 
 ------------------------------
 
@@ -152,6 +152,18 @@ SASS folder path: assets/style/saas
 ## Documentation
 
 [Full Documentation ](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md)
+
+### Table of contents
+
+[Installation](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#installation)
+
+[How to modify SASS](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#how-to-modify-sass)
+
+[SASS folder stracture](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#sass-folder-stracture)
+
+[How to use:](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#how-to-use)
+
+[Preloader style](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#preloader-style)
 
 ------------------------------
 
