@@ -157,7 +157,7 @@ Swisskit have 7 prelaoder style
 
 **Preloader 1**
 
-![preloader1](https://user-images.githubusercontent.com/3492658/47774766-1836d380-dd18-11e8-8207-cac692e7b319.gif | width=100)
+<img src="https://user-images.githubusercontent.com/3492658/47774766-1836d380-dd18-11e8-8207-cac692e7b319.gif" alt="preloader 1" width="60">
 
 ```
 <div id="sk_preloader">
