@@ -280,3 +280,13 @@ Swisskit have 7 prelaoder style
 </div>
 </div>
 ```
+------------------------------
+
+## Alignment Class
+
+1. Text left will be simply `left`
+2. Text right will be simply `right`
+3. Text center will be simply `center`
+4. Float left align `alignleft`
+4. Float right align `alignright`
+
