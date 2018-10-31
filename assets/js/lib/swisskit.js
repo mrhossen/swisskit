@@ -1,5 +1,6 @@
 /**
-   - Version:  V 1.1
+   - Name: Swisskit
+   - Version:  V 1.2
    - Author:   @mrhossen
 **/
 
@@ -68,6 +69,44 @@ $(document).ready(function () {
             scrollTop: position
         });
     });
+
+// contact form
+
+$('#submit-btn').click(function(event){
+    event.preventDefault();
+     $.ajax({
+        dataType: 'JSON',
+        url: '/sendmail.php',
+        type: 'POST',
+        data: $('#submitform').serialize(),
+        beforeSend: function(xhr){
+          $('#submit-btn').html('SENDING...');
+        },
+        success: function(response){
+          if(response){
+            console.log(response);
+            if(response['signal'] == 'ok'){
+             $('#msg').html('<div class="alert alert-success">'+ response['msg']  +'</div>');
+              $('input, textarea').val(function() {
+                 return this.defaultValue;
+              });
+              setTimeout(function(){
+                $('#msg').fadeOut('slow');
+            }, 3000);
+            }
+            else{
+              $('#msg').html('<div class="alert alert-danger">'+ response['msg'] +'</div>');
+            }
+          }
+        },
+        error: function(){
+          $('#msg').html('<div class="alert alert-danger">Errors occur. Please try again later.</div>');
+        },
+        complete: function(){
+          $('#submit-btn').html('SEND MESSAGE');
+        }
+      });
+  });
 
 
 });
