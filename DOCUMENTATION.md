@@ -2,7 +2,7 @@
 
 ## Table of contents
 
-[Installation] (https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#installation)
+[Installation](https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#installation)
 
 
 ## Installation
@@ -60,7 +60,7 @@ Add script right before closing </body> tag: (add only what you need.)
 
 ------------------------------
 
-### How to modify SASS
+## How to modify SASS
 
 *SASS Compile path should be:*
 ```

@@ -71,7 +71,7 @@ Add script right before closing </body> tag: (add only what you need.)
 
 ------------------------------
 
-### How to modify SASS
+## How to modify SASS
 
 *SASS Compile path should be:*
 ```
