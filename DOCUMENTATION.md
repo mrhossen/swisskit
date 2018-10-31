@@ -310,7 +310,7 @@ Swisskit have 7 prelaoder style
 * Horizontal center `h-center`
 * Vertically + Horizontal both center `vh-center`
 
-** Responsive **
+**Responsive**
 
 For Tablet Screen just use `m-` & for mobile `s-` before text alignment css class.
 Example:
@@ -328,7 +328,7 @@ m-center, s-center
 
 * For others large font available values are: `font55`, `font60`, `font65`, `font70`, `font80`, `font100`, `font120`, `font140` 
 
-** Responsive **
+**Responsive**
 
 For Tablet Screen just use `m-` & for mobile `s-` before text alignment css class.
 Example:
@@ -387,7 +387,7 @@ mt-25, mt-50, mt-75, mt-100, mt-125, mt-150, mt-175, mt-200
 mb-25, mb-50, mb-75, mb-100, mb-125, mb-150, mb-175, mb-200
 ```
 
-** Responsive **
+**Responsive**
 
 For Tablet Screen just use `m-` & for mobile `s-` before text alignment css class.
 Example:
