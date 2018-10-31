@@ -159,7 +159,7 @@ Swisskit have 7 prelaoder style
 
 <img src="https://user-images.githubusercontent.com/3492658/47774766-1836d380-dd18-11e8-8207-cac692e7b319.gif" alt="preloader 1" width="60">
 
-```
+```html
 <div id="sk_preloader">
 <div class="loader spinner1"></div>
 </div>
@@ -169,7 +169,7 @@ Swisskit have 7 prelaoder style
 
 <img src="https://user-images.githubusercontent.com/3492658/47774803-38ff2900-dd18-11e8-87b4-e7b308710dcb.gif" alt="preloader 2" width="60">
 
-```
+```html
 <div id="sk_preloader">
 <div class="loader spinner2">
 <div class="double-bounce1"></div>
@@ -182,7 +182,7 @@ Swisskit have 7 prelaoder style
 
 <img src="https://user-images.githubusercontent.com/3492658/47774824-461c1800-dd18-11e8-8513-f02443f222a3.gif" alt="preloader 3" width="60">
 
-```
+```html
 <div id="sk_preloader">
 <div class="loader spinner3">
 <div class="rect1"></div>
@@ -198,7 +198,7 @@ Swisskit have 7 prelaoder style
 
 <img src="https://user-images.githubusercontent.com/3492658/47774824-461c1800-dd18-11e8-8513-f02443f222a3.gif" alt="preloader 4" width="60">
 
-```
+```html
 <div id="sk_preloader">
 <div class="loader spinner4">
 <div class="cube1"></div>
@@ -211,7 +211,7 @@ Swisskit have 7 prelaoder style
 
 <img src="https://user-images.githubusercontent.com/3492658/47774833-516f4380-dd18-11e8-801c-eb907535dfb9.gif" alt="preloader 5" width="60">
 
-```
+```html
 <div id="sk_preloader">
 <div class="loader sk-circle">
 <div class="sk-circle1 sk-child"></div>
@@ -234,7 +234,7 @@ Swisskit have 7 prelaoder style
 
 <img src="https://user-images.githubusercontent.com/3492658/47774845-5af8ab80-dd18-11e8-8ed2-e3a49b2dfec2.gif" alt="preloader 6" width="60">
 
-```
+```html
 <div id="sk_preloader">
 <div class="loader sk-cube-grid">
 <div class="sk-cube sk-cube1"></div>
@@ -254,7 +254,7 @@ Swisskit have 7 prelaoder style
 
 <img src="https://user-images.githubusercontent.com/3492658/47774868-66e46d80-dd18-11e8-904b-0bca001895be.gif" alt="preloader 7" width="60">
 
-```
+```html
 <div id="sk_preloader">
 <div class="loader sk-folding-cube">
 <div class="sk-cube1 sk-cube"></div>
