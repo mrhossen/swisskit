@@ -282,11 +282,61 @@ Swisskit have 7 prelaoder style
 ```
 ------------------------------
 
-## Alignment Class
+## Some basic class
 
-1. Text left will be simply `left`
-2. Text right will be simply `right`
-3. Text center will be simply `center`
-4. Float left align `alignleft`
-4. Float right align `alignright`
+* To make inline menu `inline-link`
+* For position relative just use `relative` or for absoulate use `absolute`
+* For Text Transform `uppercase`, `lowercase`, `capitalize`
+* For fullscreen section `fullscreen`
+* For full height `full-height`
+* Text white `text-white` text black `text-black`
+* For add shadow `have-shadow`
+* For text shadow `text-shadow`
+* For border radious use `border-radious5`, `border-radious10`, `border-radious25`, `border-radious50`, `border-radious100` & for 100% radious use `border-radious100p`
+* For full border use `border` & for specific align border use `border-left`, `border-right`, `border-top`, `border-bottom`
 
+
+## Alignment CSS Class
+
+* Text left will be simply `left`
+* Text right will be simply `right`
+* Text center will be simply `center`
+* Float left align `alignleft`
+* Float right align `alignright`
+* Center align on block `aligncenter`
+* Grid center align `gridcenter`
+* Vertically center `v-center`
+* Horizontal center `h-center`
+* Vertically + Horizontal both center `vh-center`
+
+** Responsive **
+
+For Tablet Screen just use `m-` & for mobile `s-` before text alignment css class.
+Example:
+```
+m-center, s-center
+```
+
+## Font related class
+
+* For font weight use `font300`, `font400`, `font500`, `font600`, `font700`, `font800`, `font900` 
+
+* For font size use Any ODD number form 12 to 50. Like: `font12`, `font14`, `font26`, `font42` etc. 
+
+* For others large font available values are: `font55`, `font60`, `font65`, `font70`, `font80`, `font100`, `font120`, `font140` 
+
+## Hover class
+
+* For button hover available class `btn-hover1`, `btn-hover2`, `btn-hover3`, `btn-hover4`
+
+* For image thumb hover available class `hover-thumb-rotate`, `hover-thumb-grayup`
+
+* For icon hover opacity `hover-opacity`
+
+* Shadow on hover `hover-shadow`
+
+* On hover position up effect `hover-up`
+
+* On hover zoom effect `hover-zoom`
+
+* For link hover effect `link-hover`

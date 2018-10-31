@@ -605,6 +605,10 @@
   font-weight: 800;
 }
 
+.font900 {
+  font-weight: 900;
+}
+
 /*----------------------
     FONT SIZE
 -----------------------*/
@@ -697,11 +701,11 @@
 }
 
 .font65 {
-  font-size: 60px;
+  font-size: 65px;
 }
 
 .font70 {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .font80 {
@@ -791,10 +795,10 @@
     font-size: 60px;
   }
   .m-font65 {
-    font-size: 60px;
+    font-size: 65px;
   }
   .m-font70 {
-    font-size: 60px;
+    font-size: 70px;
   }
   .m-font80 {
     font-size: 80px;
@@ -881,10 +885,10 @@
     font-size: 60px;
   }
   .s-font65 {
-    font-size: 60px;
+    font-size: 65px;
   }
   .s-font70 {
-    font-size: 60px;
+    font-size: 70px;
   }
   .s-font80 {
     font-size: 80px;
