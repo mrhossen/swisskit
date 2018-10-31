@@ -141,13 +141,26 @@ File path: `assets/style/sass/_swisskit_config.scss`
 
 Then to add/update your own style use `theme` folder & `theme.scss`
 
-> Don't change / overwrite anything from 
-> `assets/style/sass/swisskit`, `swisskit.scss` 
-> `assets/style/css/swisskit.css`, `assets/style/min/swisskit.min.css`
-> `assets/js/lib/swisskit.js`, `assets/js/lib/swisskit.min.js`
+```
+Don't change / overwrite anything from 
+assets/style/sass/swisskit, swisskit.scss 
+assets/style/css/swisskit.css, assets/style/min/swisskit.min.css
+assets/js/lib/swisskit.js, assets/js/lib/swisskit.min.js
+```
+It's highly recommand to use your own style under `theme` folder & `theme.scss`
 
 ------------------------------
 
 ## Preloader style
 
 Swisskit have 7 prelaoder style 
+
+**Preloader 1**
+
+![preloader1](https://user-images.githubusercontent.com/3492658/47774766-1836d380-dd18-11e8-8207-cac692e7b319.gif | width=100)
+
+```
+<div id="sk_preloader">
+<div class="loader spinner1"></div>
+</div>
+```
