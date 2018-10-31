@@ -1,5 +1,10 @@
 ## Documentation of Swisskit
 
+## Table of contents
+
+[Installation] (https://github.com/mrhossen/swisskit/blob/master/DOCUMENTATION.md#installation)
+
+
 ## Installation
 
 ### Swisskit
@@ -167,7 +172,7 @@ Swisskit have 7 prelaoder style
 
 **Preloader 2**
 
-<img src="https://user-images.githubusercontent.com/3492658/47774803-38ff2900-dd18-11e8-87b4-e7b308710dcb.gif" alt="preloader 2" width="60">
+<img src="https://user-images.githubusercontent.com/3492658/47774785-2c7ad080-dd18-11e8-97ac-285441d60535.gif" alt="preloader 2" width="60">
 
 ```html
 <div id="sk_preloader">
@@ -180,7 +185,7 @@ Swisskit have 7 prelaoder style
 
 **Preloader 3**
 
-<img src="https://user-images.githubusercontent.com/3492658/47774824-461c1800-dd18-11e8-8513-f02443f222a3.gif" alt="preloader 3" width="60">
+<img src="https://user-images.githubusercontent.com/3492658/47774803-38ff2900-dd18-11e8-87b4-e7b308710dcb.gif" alt="preloader 3" width="60">
 
 ```html
 <div id="sk_preloader">
