@@ -137,94 +137,10 @@ Preloader 4
   }
 }
 
+
+
 /* --------------------
 Preloader 5
-<div id="sk_preloader">
-<div class="loader spinner5"></div>
-</div>
----------------------- */
-
-.spinner5 {
-  width: 60px;
-  height: 60px;
-  background-color: $color-preloader-loader;
-  border-radius: 100%;
-  animation: sk-scaleout 1.0s infinite ease-in-out;
-}
-
-/* --------------------
-Preloader 6
-<div class="spinner6">
-  <div class="dot1"></div>
-  <div class="dot2"></div>
-</div>
----------------------- */
-
-// .spinner6 {
-//   width: 40px;
-//   height: 40px;
-//   margin: 100px auto;
-//   position: relative;
-//   text-align: center;
-//   animation: sk-rotate 2.0s infinite linear;
-
-//   .dot1,
-//   .dot2 {
-//     width: 60%;
-//     height: 60%;
-//     display: inline-block;
-//     position: absolute;
-//     top: 0;
-//     background-color: $color-preloader-loader;
-//     border-radius: 100%;
-//     animation: sk-bounce 2.0s infinite ease-in-out;
-//   }
-
-//   .dot2 {
-//     top: auto;
-//     bottom: 0;
-//     animation-delay: -1.0s;
-//   }
-
-// }
-
-/* --------------------
-Preloader 7
- <div id="sk_preloader">
-<div class="loader spinner7">
-<div class="bounce1"></div>
-<div class="bounce2"></div>
-<div class="bounce3"></div>
-</div>
-</div>
----------------------- */
-
-.spinner7 {
-  width: 70px;
-  text-align: center;
-
-  div {
-    width: 18px;
-    height: 18px;
-    background-color: $color-preloader-loader;
-    border-radius: 100%;
-    display: inline-block;
-    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-  }
-
-  .spinner .bounce1 {
-    animation-delay: -0.32s;
-  }
-
-  .spinner .bounce2 {
-    animation-delay: -0.16s;
-  }
-}
-
-
-
-/* --------------------
-Preloader 8
 <div id="sk_preloader">
 <div class="loader sk-circle">
 <div class="sk-circle1 sk-child"></div>
@@ -359,17 +275,19 @@ Preloader 8
 }
 
 /* --------------------
-Preloader 9
-<div class="sk-cube-grid">
-  <div class="sk-cube sk-cube1"></div>
-  <div class="sk-cube sk-cube2"></div>
-  <div class="sk-cube sk-cube3"></div>
-  <div class="sk-cube sk-cube4"></div>
-  <div class="sk-cube sk-cube5"></div>
-  <div class="sk-cube sk-cube6"></div>
-  <div class="sk-cube sk-cube7"></div>
-  <div class="sk-cube sk-cube8"></div>
-  <div class="sk-cube sk-cube9"></div>
+Preloader 6
+<div id="sk_preloader">
+<div class="loader sk-cube-grid">
+<div class="sk-cube sk-cube1"></div>
+<div class="sk-cube sk-cube2"></div>
+<div class="sk-cube sk-cube3"></div>
+<div class="sk-cube sk-cube4"></div>
+<div class="sk-cube sk-cube5"></div>
+<div class="sk-cube sk-cube6"></div>
+<div class="sk-cube sk-cube7"></div>
+<div class="sk-cube sk-cube8"></div>
+<div class="sk-cube sk-cube9"></div>
+</div>
 </div>
 ---------------------- */
 
@@ -423,12 +341,14 @@ Preloader 9
 }
 
 /* --------------------
-Preloader 10
-<div class="sk-folding-cube">
-  <div class="sk-cube1 sk-cube"></div>
-  <div class="sk-cube2 sk-cube"></div>
-  <div class="sk-cube4 sk-cube"></div>
-  <div class="sk-cube3 sk-cube"></div>
+Preloader 7
+<div id="sk_preloader">
+<div class="loader sk-folding-cube">
+<div class="sk-cube1 sk-cube"></div>
+<div class="sk-cube2 sk-cube"></div>
+<div class="sk-cube4 sk-cube"></div>
+<div class="sk-cube3 sk-cube"></div>
+</div>
 </div>
 ---------------------- */
 

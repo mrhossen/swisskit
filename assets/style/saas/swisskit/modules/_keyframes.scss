@@ -153,34 +153,10 @@
     }
   }
 
-// Preloader 5
 
-@keyframes sk-scaleout {
-    0% { 
-      transform: scale(0);
-    } 100% {
-      transform: scale(1.0);
-      opacity: 0;
-    }
-  }
 
-// Preloader 6 
 
-// @keyframes sk-rotate { 
-//     100% { 
-//       transform: rotate(360deg);
-//     }
-//   }
-  
-//   @keyframes sk-bounce {
-//     0%, 100% { 
-//       transform: scale(0.0);
-//     } 50% { 
-//       transform: scale(1.0);
-//     }
-//   }
-
-// Preloader 7 
+// Preloader 5 
 
 @keyframes sk-bouncedelay {
     0%, 80%, 100% { 
@@ -190,25 +166,8 @@
     }
   }
 
-// Preloader 8 
 
-@-webkit-keyframes sk-circleBounceDelay {
-    0%, 80%, 100% {
-              transform: scale(0);
-    } 40% {
-              transform: scale(1);
-    }
-  }
-  
-  @keyframes sk-circleBounceDelay {
-    0%, 80%, 100% {
-              transform: scale(0);
-    } 40% {
-              transform: scale(1);
-    }
-  }
-
-// Preloader 9 
+// Preloader 6 
 
 @keyframes sk-cubeGridScaleDelay {
     0%, 70%, 100% {
@@ -218,7 +177,7 @@
     } 
   }
 
-// Preloader 10
+// Preloader 7
 
 @keyframes sk-foldCubeAngle {
     0%, 10% {
