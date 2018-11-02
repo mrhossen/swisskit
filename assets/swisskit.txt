@@ -10,3 +10,5 @@
 # Lity - v2.3.1
 
 # AOS - v2.3.1
+
+# Icofont - v1.0.1
