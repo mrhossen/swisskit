@@ -1,4 +1,9 @@
-// Commmon Style
+// Base Style
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body, html {
     font-size: $font-body;
     font-family: $font-primary;
